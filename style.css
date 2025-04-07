@@ -1,0 +1,85 @@
+html {
+    background-color: #000000;
+    color: #cfec56;
+    font-family:play;
+}
+a {
+    color: #cfec56;
+    display: block;
+    padding: 5px;
+}
+h2 {
+    padding: 5px;
+    background-color: #cfec56;
+    color: #000000;
+    margin: 0 0 0 0 ;
+    border-radius: 10px 0 0 0;
+}
+h3 {
+    padding: 5px;
+    text-align: center;
+}
+h4 {
+    padding: 5px;
+    text-align: center;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 1px solid #cfec56;
+    margin: auto;
+    display: block;
+}
+p {
+    margin: 5px;
+}
+span {
+    float: right;
+}
+/*CLASSES and IDS*/
+#logo {
+    font-size: 60px;
+    padding: 0 20px 0 20px;
+    font-family: logo;
+}
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #cfec56;
+    background: #272a1c;
+}
+.pagecontent {
+    display: flex;
+    background: #120f18;
+}
+.pageIndex {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    background-color: #292c3b;
+    margin: 5px;
+    border-radius: 10px 0 0 0;
+}
+.articles {
+    flex: 1 1 0;
+}
+.pageMeat {
+    flex: 3 1 0;
+    background-color: #292c3b;
+    margin: 5px;
+    border-radius: 10px 0 0 0;
+}
+/*FONT STUFF*/
+@font-face {
+    font-family: 'play';
+    src: url('fonts/Play-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'logo';
+    src: url('fonts/Cyberpunk-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
