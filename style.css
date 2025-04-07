@@ -16,6 +16,7 @@ h2 {
     color: #120f18;
     margin: 0px;
     border-radius: 10px 0 0 0;
+    clip-path: polygon(13px 0, 100% 0, 100% 100%, 0 100%, 0 30%);
 }
 h3 {
     padding: 5px;
@@ -62,6 +63,7 @@ span {
     background-color: #292c3b;
     margin: 5px;
     border-radius: 10px 0 0 0;
+    
 }
 .articles {
     flex: 1 1 0;
