@@ -51,6 +51,7 @@ span {
     align-items: center;
     border-bottom: 5px solid #cfec56;
     background: #272a1c;
+    clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%, 0 30%);
 }
 .pagecontent {
     display: flex;
