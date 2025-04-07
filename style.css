@@ -1,7 +1,9 @@
 html {
-    background-color: #000000;
+    background-color: #120f18;
     color: #cfec56;
     font-family:play;
+    margin: auto;
+    max-width: 900px;
 }
 a {
     color: #cfec56;
@@ -11,8 +13,8 @@ a {
 h2 {
     padding: 5px;
     background-color: #cfec56;
-    color: #000000;
-    margin: 0 0 0 0 ;
+    color: #120f18;
+    margin: 0px;
     border-radius: 10px 0 0 0;
 }
 h3 {
