@@ -46,7 +46,7 @@ span {
 .interviewee {
     font-style: italic;
     text-align: right;
-    text-indent: 20%;
+    margin: 0 0 0 20%;
 }
 /*CLASSES and IDS*/
 .logo {
