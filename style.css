@@ -9,6 +9,10 @@ a {
     color: #cfec56;
     display: block;
     padding: 5px;
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: #ffffff;
 }
 h2 {
     padding: 5px;
@@ -39,12 +43,21 @@ p {
 span {
     float: right;
 }
+.interviewee {
+    font-style: italic;
+    text-align: right;
+    text-indent: 20%;
+}
 /*CLASSES and IDS*/
 .logo {
     font-size: 60px;
     padding: 0 20px 0 20px;
     font-family: logo;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.logo:hover {
+    color: #ffffff;
 }
 .pageTitle {
     display: flex;
