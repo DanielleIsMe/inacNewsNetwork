@@ -40,10 +40,11 @@ span {
     float: right;
 }
 /*CLASSES and IDS*/
-#logo {
+.logo {
     font-size: 60px;
     padding: 0 20px 0 20px;
     font-family: logo;
+    text-decoration: none;
 }
 .pageTitle {
     display: flex;
